@@ -1,0 +1,113 @@
+body{
+  margin: 0;
+}
+
+header{
+  height: 250px;
+  background-color: rgb(16,16,16);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo{
+  position: sticky;
+  margin-left: 22px; */
+  margin-top: 20px;
+  z-index: 2;
+  border: none;
+}
+
+ h1{
+  font-size: 45px;
+  color: white;
+  margin: 0;
+  border: 2px solid white;
+  width: 275px;
+  height: 60px;
+  font-weight: lighter;
+  position: relative;
+  top: -52px;
+  z-index: 1;
+}
+
+p{
+  color: #fa9300;
+  font-size: 15px;
+  margin-top: 0;
+  position: relative;
+  top: -52px;
+  left: 55px;
+  text-transform: uppercase;
+}
+
+h2{
+  margin-top: 20px;
+  color: red;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.menu{
+  margin-top: 35px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  background-color: red;
+  overflow-y: scroll;
+}
+
+.breeds{
+  padding-top: 7px;
+  margin: 10px;
+  color: black;
+  text-transform: uppercase;
+}
+
+.breeds:hover{
+  color: white;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  height: 552px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img{
+  margin: 10px;
+  border: 2px solid red;
+}
+
+.dogcontainer{
+  border: 5px solid red;
+  border-radius: 20px;
+}
+
+input{
+  margin-top: 10px;
+  width: 200px;
+  height: 150px;
+}
+
+.mydroppdown{
+  margin: 5px;
+  color: black;
+  text-transform: uppercase;
+}
+
+.mydroppdown:hover{
+  color: white;
+}
+
+ .subMenu{
+  display: flex;
+  align-items: center;
+  background-color: red;
+  height: 50px;
+}
